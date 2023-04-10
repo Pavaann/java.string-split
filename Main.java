@@ -5,14 +5,16 @@ public class Main {
         String s = "potato apple lemon banana cherry avocado pear watermelon";
         String[] vect = s.split(" ");
 
-        System.out.println(vect[0]);
-        System.out.println(vect[1]);
-        System.out.println(vect[2]);
-        System.out.println(vect[3]);
-        System.out.println(vect[4]);
-        System.out.println(vect[5]);
-        System.out.println(vect[6]);
-        System.out.println(vect[7]);
+        /*
+        for (int i = 0; i < vect.length; i++) {
+            System.out.println(vect[i]);
+        }
+         */
+
+        // Para cada "value" do tipo String dentro do meu vetor, da um print no "value"
+        for (String value : vect) {
+            System.out.println(value);
+        }
 
     }
 }
